@@ -1,5 +1,5 @@
 # Auido-viusal-multimodal-dysarthria-assessment---Master-thesis
-The codes for the master thesis  -- Multimodal Automatic Dysarthria Assessment Through Audio-Visual Fusion and Speaker-Disjoint Evaluation in Mandarin
+The codes for the master thesis  -- Audio-Visual Fusion for Multimodal Automatic Dysarthria Assessment with Speaker-Disjoint Split in Mandarin
 
 # Introduction:
 This thesis investigates a multimodal ADA framework that integrates both audio and video modalities to assess Mandarin-speaking individuals with dysarthria. Drawing on the Mandarin Subacute Stroke Dysarthria Multimodal (MSDM) database, we build a bimodal system using pre-trained encoders for each modality and apply transfer learning to adapt them to the dysarthric domain. A speaker-disjoint dataset split is employed to reflect realistic clinical scenarios, ensuring that the system is evaluated on unseen speakers. To fuse the extracted features, we explore various feature-level fusion strategies to fuse the extracted features, including linear, MLP-based, and attention-based methods. The codes are written using Python in Jupyter notebooks.
