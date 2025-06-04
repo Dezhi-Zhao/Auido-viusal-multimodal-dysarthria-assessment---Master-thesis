@@ -11,13 +11,15 @@ The thesis works on the Open-Access database: Mandarin Subacute Stroke Dysarthri
 J. Liu et al., "The Open-Access Mandarin Subacute Stroke Dysarthria Multimodal (MSDM) Database for Intelligent Assessment," 2024 IEEE 14th International Symposium on Chinese Spoken Language Processing (ISCSLP), Beijing, China, 2024, pp. 131-135, doi: 10.1109/ISCSLP63861.2024.10799983. keywords: {Pathology;Databases;Speech recognition;Stroke (medical condition);Neurorehabilitation;Object recognition;Labeling;Mandarin;Subacute stroke;Dysarthria;Audio-video database}
 
 # Files
-Five Jupyter notebook files.
+Six Jupyter notebook files.
 
 1. audio_spectrogram_extract.ipynb: The mel-spectrograms of the audio data are extracted and stored in a single file.
 2. encoder_finetuning.ipynb:  The mel-spectrograms are loaded, and the video frames are obtained. The mel-spectrograms are passed through a 2D ResNet18. The video frames are passed through a 3DResNet18.
 3. embedding_extract.ipynb: The audio embeddings are extracted from mel-spectrograms by the audio encoder. The video embeddings are extracted from video frames by the video encoder.
-4. classification.ipynb: The extracted embeddings are fused and then passed through a variety of classifiers.
-5. best-performance-analysis.ipynb: The classification of the best performance is presented. The detailed classification is analyzed. 
+5. classification.ipynb: The extracted embeddings are fused and then passed through a variety of classifiers.
+6. classification_unimodal.ipynb: Classification using only audio data or video data, serving as baselines.
+7. best-performance-analysis.ipynb: The classification of the best performance is presented. The detailed classification is analyzed.
+
 
 
 
